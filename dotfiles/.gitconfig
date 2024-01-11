@@ -134,3 +134,6 @@ process = git-lfs filter-process
 
 [credential]
 helper = osxkeychain
+[user]
+	name = anandsaxena
+	email = anand@greenmachine.dev
