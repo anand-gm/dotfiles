@@ -67,3 +67,4 @@ if [ -f "${HOME}/.dotfiles.local" ]; then
     # shellcheck disable=SC1091
     source "${HOME}/.dotfiles.local"
 fi
+. "$HOME/.cargo/env"
