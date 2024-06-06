@@ -16,6 +16,7 @@ alias ax='chmod a+x'                      # system: make file executable
 alias path='echo -e ${PATH//:/\\n}'       # system: Echo all executable Paths
 alias shfmt="shfmt -ci -bn -i 2"          # dev: Preferred shellformat implementation
 alias sc='shellcheck --exclude=2001,2148' # dev: Preferred shellcheck implementation
+alias gh='/usr/local/bin/github'
 
 # Prefer `bat` over `cat` when installed
 [[ "$(command -v bat)" ]] \
